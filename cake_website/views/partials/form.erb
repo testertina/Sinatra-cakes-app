@@ -1,0 +1,32 @@
+<!-- Form to order cake. -->
+
+<form>
+    <label>Cake to order:</label>
+    <input type="text" name="cake_name" value="<%= @cake[:name] if @cake %>"><br><br>
+
+    <label>Cake type:</label>
+    <input type="text" name="cake_type" value="<%= @cake[:type] if @cake %>"><br><br>
+
+    <label>Icing text</label>
+    <input type="text" name="icing_text" value="<%= @cake[:icing_text] if @cake %>"><br><br>
+
+    <label>Icing flavour:</label>
+    <input type="text" name="icing_flavour" value="<%= @cake[:flavour] if @cake %>"><br><br>
+
+    <label>Full name:</label>
+    <input type="text" name="user_name"><br><br>
+
+    <label>First line address:</label>
+    <input type="text" name="address"><br><br>
+
+    <label>Street:</label>
+    <input type="text" name="street"><br><br>
+
+    <label>Post code:</label>
+    <input type="text" name="post_code"><br><br>
+
+    <label>Contact number:</label>
+    <input type="text" name="contact_number"><br><br>
+
+    <input id="button" type="submit" value="Move onto payment">
+</form>

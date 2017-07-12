@@ -1,0 +1,6 @@
+<h1><%= @cake[:name] %></h1>
+<p>We offer this cake in <%= @cake[:type] %> form.</p>
+
+<img src=<%= @cake[:image] %>>
+<p>Please click below to order this cake.</p>
+<a id="order" href="/cakes/<%= @cake[:id] %>/edit">Order this cake</a>

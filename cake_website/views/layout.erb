@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> <%= @title %> </title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<%= erb :"partials/navigation" %>
+</head>
+<body>
+
+<!-- Content injected here. -->
+    <%= yield %>
+</body>
+</html>

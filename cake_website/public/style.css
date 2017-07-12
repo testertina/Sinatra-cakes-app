@@ -1,0 +1,147 @@
+body {
+	background-color: #BBBDF6;
+	position: relative;
+
+}
+
+h1 {
+	background-color: #9893DA;
+	color: #625F63;
+	border-style: solid;
+	border-style: 5px;
+	border-color: #9893DA;
+	border-radius: 1px;
+	font-family: "Lucida Grande";
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+
+}
+
+p {
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+
+}
+
+div {
+	width: 120px;
+	height: 30px;
+	margin: 0px 0px 0px 650px;
+	background-color: #9893DA;
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+
+}
+
+h3 {
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+
+}
+
+nav {
+	width: 400px;
+	height: 30px;
+	margin: 0px 0px 0px 500px;
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 5px;
+	text-align: center;
+	position: relative;
+
+}
+
+nav a {
+	width: 150px;
+	height: 30px;
+	background-color: #9893DA;
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: center;
+	border-style: solid;
+	border-style: 5px;
+	border-color: #9893DA;
+	border-radius: 1px;
+	position: relative;
+}
+
+#order {
+	width: 150px;
+	height: 30px;
+	background-color: #D3D3D3;
+	margin: 0px 0px 0px 650px;
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: center;
+	border-style: solid;
+	border-style: 5px;
+	border-color: #9893DA;
+	border-radius: 1px;
+	position: relative;
+}
+
+img {
+	width: 500px;
+	height: 400px;
+	margin: 0px 0px 0px 450px;
+	
+}
+
+form {
+	width: 700px;
+	height: 500px;
+	margin: 0px 0px 0px 500px;
+
+}
+
+label {
+	width: 150px;
+	height: 30px;
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	margin: 0px 200px 0px 0px;
+}
+
+input {
+	width: 400px;
+	height: 30px;
+	color: #72727E;
+	align-items: right;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: left;
+	position: relative;
+	margin: 0px 200px 0px 0px;
+
+}
+
+#button {
+	width: 300px;
+	height: 30px;
+	background-color: #D3D3D3;
+	margin: 0px 0px 0px 50px;
+	color: #72727E;
+	font-family: "Lucida Grande";
+	font-size: 20px;
+	text-align: center;
+	border-style: solid;
+	border-style: 5px;
+	border-color: #9893DA;
+	border-radius: 1px;
+	position: relative;
+}

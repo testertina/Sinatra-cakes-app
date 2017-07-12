@@ -1,0 +1,12 @@
+<h1>Welcome to the Cake Shop</h1>
+<p>Here you will find the delicious cakes we have to offer.</p>
+
+	<% @cakes.each do |cake| %>
+		<div>
+			<h3><a href="cakes/<%= cake[:id] %>"><%= cake[:type] %></a></h3>
+		</div>
+	<% end %>
+
+
+
+
